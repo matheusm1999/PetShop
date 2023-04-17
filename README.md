@@ -14,6 +14,7 @@ Essa API utilizou as seguintes tecnologias:
 Para alterar configurações como banco de dados e porta que a aplicação utiliza (atualmente 8070), é necessário alterar o arquivo "application.properties"
 
 Os seguintes endpoints foram criados:
+> - "/auth": responsável por criar e autenticar usuarios (utiliza token JWT);
 > - "/usuario": responsável por gerenciar dados dos usuarios;
 > - "/cliente": responsável por gerenciar dados dos clientes;
 > - "/endereço": responsável por gerenciar dados dos endereços dos clientes;
