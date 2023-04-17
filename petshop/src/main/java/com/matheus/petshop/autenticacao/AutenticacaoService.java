@@ -41,7 +41,7 @@ public class AutenticacaoService {
 				.nome(request.getNome())
 				.cliente(cliente)
 				.senha(passwordEncoder.encode(request.getSenha()))
-				.perfil(Perfil.ROLE_CLIENTE)
+				.perfil(Perfil.ROLE_ADMIN)
 				.build();
 		usuarioRepository.save(usuario);
 		
